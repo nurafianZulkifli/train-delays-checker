@@ -597,7 +597,14 @@ p.accord-lrd {
 }
 
 p.accord-p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p.accord-date {
   font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 p.accord-twt {
@@ -659,10 +666,11 @@ p.accord-twt {
 
 .break-line {
   height: 2px; 
-  background-color: #EAEFF5;
+  background-color: #c7cbe4;
   margin-top: 3em;
   margin-bottom: 2em;
 }
+
 
 
 

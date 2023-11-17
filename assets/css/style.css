@@ -253,7 +253,7 @@ h6 {
   top: 10px;
   z-index: 9998;
   border: 0;
-  background: #494042;
+  background: #c8cde6;
   font-size: 30px;
   transition: all 0.4s;
   outline: none !important;
@@ -370,13 +370,14 @@ h6 {
   #hero-sbst h1 {
     font-size: 52px;
     line-height: 55px;
+    text-align: center;
   }
 
   #hero p,
   #hero-sbst p {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 27px;
   }
 }
@@ -527,6 +528,10 @@ h6 {
 }
 
 /* NEW */
+.bi-x::before, .bi-list::before {
+  color: #000;
+}
+
 .border-left-nsl {
   border-left: 0.25rem solid #ff2a2a !important;
 }

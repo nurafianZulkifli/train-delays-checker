@@ -9,7 +9,7 @@ var ctx = document.getElementById("delays-overview");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"],
+    labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "Number of Delays",
       lineTension: 0.3,
@@ -23,7 +23,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(193, 205, 236, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [0, 1, 0, 0, 0, 0, 0,0],
+      data: [0, 1, 0, 0, 0, 0, 0, 0, 0],
     }],
   },
   options: {

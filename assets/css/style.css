@@ -26,6 +26,8 @@ h4,
 h5,
 h6 {
   font-family: "DM Sans", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .center-block {

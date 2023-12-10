@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: 'DM Sans', sans-serif;
+  font-weight: 900;
+  font-style:normal;
   color: #fff;
   background-color: #18191a;
 }
@@ -218,11 +220,13 @@ h6 {
   color: #fff;
 }
 
-.nav-menu a.nav-link-smrt.active, .nav-menu a.nav-link-smrt:hover {
+.nav-menu a.nav-link-smrt.active,
+.nav-menu a.nav-link-smrt:hover {
   background: #cf3d3d;
 }
 
-.nav-menu a.nav-link-sbst.active, .nav-menu a.nav-link-sbst:hover  {
+.nav-menu a.nav-link-sbst.active,
+.nav-menu a.nav-link-sbst:hover {
   background: #6d1d88;
 }
 
@@ -532,7 +536,8 @@ h6 {
 }
 
 /* NEW */
-.bi-x::before, .bi-list::before {
+.bi-x::before,
+.bi-list::before {
   color: #000;
 }
 
@@ -669,7 +674,7 @@ p.accord-twt {
 }
 
 .break-line {
-  height: 2px; 
+  height: 2px;
   background-color: #c7cbe4;
   margin-top: 3em;
   margin-bottom: 2em;
@@ -768,7 +773,7 @@ p.accord-twt {
     vertical-align: sub;
     margin-bottom: -29px;
   }
-  
+
 }
 
 @media (min-width: 576px) {

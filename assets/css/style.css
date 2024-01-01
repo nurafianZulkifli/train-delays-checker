@@ -624,6 +624,7 @@ p.accord-twt {
 
 .accordion-item {
   border-color: #000;
+  margin-bottom: 10px;
 }
 
 .accordion-body {

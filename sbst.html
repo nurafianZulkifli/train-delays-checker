@@ -2,491 +2,264 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="description" content>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Train Delays Checker | SBS Transit</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>SBS Transit | TDC</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta property="og:image" content="https://i.imgur.com/91cXZ6W.png" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="icon" href="./img/core-img/favicon.png">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet"
-    type="text/css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-extension-1.css">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="index.html" class="nav-link-smrt nav-link scrollto"><i class="fa-solid fa-train"></i> <span>SMRT
-              Trains</span></a></li>
-        <li><a href="" class="nav-link-sbst nav-link scrollto active"><i class="fa-solid fa-train"></i> <span>SBS
-              Transit</span></a></li>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero-sbst" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Train Delays Checker</h1>
-      <p>Overview of the days since last reported delays across Singapore's train network.</p>
-      <div class="cr-links">
-        <a href="https://www.straitstimes.com/singapore/north-east-line-to-get-new-trains-from-july-28-ahead-new-extension-in-2024"
-          class="credits"><i class='bx bxs-camera'></i> &nbsp;Photo Credits: The Straits Times</a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-
-
-  <section id="lrd" class="d-flex flex-column justify-content-center">
-    <!-- Last Reported Delays -->
-    <div class="section-title">
-      <h2><img src="assets/img/sbstl.png" alt="smrt" width="250px"></h2>
-      <p>(Data as of 15 July 2024)</p>
+    <div id="preloader">
+        <div class="loader"></div>
     </div>
 
-    <div class="row">
-      <!-- NEL -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-nel shadow h-100 py-2">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="line text-xs font-weight-bold text-nel text-uppercase mb-1">
-                  North East Line</div>
-                <!-- Days -->
-                <div class="h5 days mb-0 font-weight-bold text-white">46 Days</div>
-                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                  since last reported delay</div>
-              </div>
-              <div class="col-auto">
-                <img src="assets/caplets/NELCap.png" alt="NEL" width="55px">
-              </div>
+
+    <header class="header-area">
+
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+
+                    <nav class="classy-navbar justify-content-between" id="pwNav">
+
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt></a>
+
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <div class="classy-menu">
+
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="./index.html">SMRT Trains</a></li>
+                                    <li  class="active"><a href="./sbst.html">SBS Transit</a></li>
+                                    <li><a href="./our-networks.html">Networks</a></li>
+                                    <li><a href="#">Past Records</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./past-records-smrt.html">SMRT Trains</a></li>
+                                            <li><a href="./past-records-sbst.html">SBS Transit</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </header>
 
-      <!-- DTL -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-dtl shadow h-100 py-2">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="line text-xs font-weight-bold text-dtl text-uppercase mb-1">
-                  Downtown Line</div>
-                <!-- Days -->
-                <div class="h5 days mb-0 font-weight-bold text-white">52 Days</div>
-                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                  since last reported delay</div>
-              </div>
-              <div class="col-auto">
-                <img src="assets/caplets/DTLCap.png" alt="DTL" width="55px">
-              </div>
+
+    <!-- ============================================= Hero Section ============================================= -->
+    <section id="hero-sbst" class="flex-column justify-content-center">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <img class="profile-pic wow fadeInUp" data-wow-delay="100ms" src="img/core-img/logo_big.png"
+                            alt="profile-pic">
+                        <div class="profile-det wow fadeInUp" data-wow-delay="200ms">
+                            <h2 class="profile-name wow fadeInUp" data-wow-delay="400ms">Train Delays Checker</h2>
+                            <h2 class="profile-desc wow fadeInUp" data-wow-delay="400ms">Overview of the days since last
+                                reported delays across Singapore's train network.
+                                <h2 class="profile-desc wow fadeInUp" data-wow-delay="400ms"> <a
+                                        href="https://en.wikipedia.org/wiki/Alstom_Metropolis_C851E#/media/File:C851E_NEL_trains_at_Sengkang_Depot.jpg"
+                                        class="credits"><i class='bx bxs-camera'></i> &nbsp;Photo Credits: Sgtrainengr (Wikipedia)</a>
+                                </h2>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <!-- SKPGLRT -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-lrt shadow h-100 py-2">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="line text-xs font-weight-bold text-lrt text-uppercase mb-1">
-                  Sengkang-Punggol LRT</div>
-                <!-- Days -->
-                <div class="h5 days mb-0 font-weight-bold text-white">36 Days</div>
-                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                  since last reported delay</div>
-              </div>
-              <div class="col-auto">
-                <img src="assets/caplets/SKPGCap.png" alt="SKLRT" width="55px">
-              </div>
+
+    </section><!-- End Hero -->
+
+
+    <section id="lrd" class="d-flex flex-column justify-content-center">
+        <!-- Last Reported Delays -->
+        <div class="section-title section-title-smrt">
+            <h2><img src="img/core-img/sbstl.png" alt="sbst" width="250px"></h2>
+            <p>(Data as of 19 August 2024)</p>
+        </div>
+
+        <div class="row row-lrd">
+            <!-- NEL -->
+            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="100ms">
+                <div class="card border-left-nel h-100 py-2" style="background-color: #dbb0e8;">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="line text-xs font-weight-bold text-nel text-uppercase mb-1">
+                                    North East Line</div>
+                                <!-- Days -->
+                                <div class="h5 days mb-0 font-weight-bold text-black">81 Days</div>
+                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
+                                    since last reported delay</div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/caplets/NELCap.png" alt="NSL" width="55px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <br>
-    <br>
-
-    <!-- Delays Overview (≥ 10 mins) -->
-    <div class="row">
-      <div class="chart col-xl-12 col-lg-12">
-        <div class="card shadow mb-4">
-          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-white">Delays Overview (≥ 10 mins)</h6>
-          </div>
-          <!-- Card Body -->
-          <div class="card-body">
-            <div class="chart-area">
-              <canvas id="delays-overview"></canvas>
+            <!-- DTL -->
+            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="300ms">
+                <div class="card border-left-dtl h-100 py-2" style="background-color: #b0cce8;">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="line text-xs font-weight-bold text-dtl text-uppercase mb-1">
+                                    Downtown Line</div>
+                                <!-- Days -->
+                                <div class="h5 days mb-0 font-weight-bold text-black">87 Days</div>
+                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
+                                    since last reported delay</div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/caplets/DTLCap.png" alt="EWL" width="55px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <br>
-    <br>
-
-    <!-- Recent Incidents -->
-    <div class="row">
-      <div class="del-o col-xl-12 col-lg-12">
-        <div class="card shadow mb-4">
-          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-white">Recent Incidents</h6>
-          </div>
-          <div class="card-body">
-            <p class="mb-0">
-              <b>No Incidents Available</b>
-            </p>
-
-            <!-- <p class="mb-0">
-              <b>- <a href="https://x.com/SBSTransit_Ltd/status/1799558841610424706">June 9:</a></b><br>
-              (0545hrs) Due to signalling fault, no LRT train svc for both SKG and PGL LRT stations. To continue your
-              journey, Free regular & Bridging Buses available at all SKG and PGL LRT stations. We are sorry for the
-              inconvenience caused.
-            </p> -->
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br>
-    <br>
-
-    <div class="section-title">
-      <h2>Past Records</h2>
-    </div>
-
-    <!-- 2024 -->
-    <div class="row">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              2024
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-
-              <!--  -->
-              <!-- <p class="accord-date"><u>No Records Yet</u></p> -->
-
-              <p class="accord-date"><u>June 2024</u></p>
-              <p class="accord-lrd">NEL: 31 Days <br>
-                DTL: 37 Days <br>
-                SKPGLRT: 21 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 2</b></p>
-
-              <p class="accord-twt">- <a href="https://x.com/SBSTransit_Ltd/status/1799558841610424706">June
-                  9:</a>(0545hrs) Due to signalling fault, no LRT train svc for both SKG and PGL LRT stations. To
-                continue your journey, Free regular & Bridging Buses available at all SKG and PGL LRT stations. We are sorry for the
-                inconvenience caused.</p>
-
-              <p class="accord-twt">- <a href="https://x.com/SBSTransit_Ltd/status/1793751940075340086">May
-                  24:</a> No DTL service between DT20 FCN and DT25 MTR due to track closure. Free regular and bridging
-                bus services are available btwn DT19 CNT and DT29 BDN. Recovery work is in progress, with shuttle
-                service btwn DT26 MPS and DT29 BDN. We are sorry for the inconvenience caused.</p>
-
-
-              <div class="break-line"></div>
-
-              <p class="accord-date"><u>May 2024</u></p>
-              <p class="accord-lrd">NEL: 1 Day <br>
-                DTL: 7 Days <br>
-                SKPGLRT: 39 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 2</b></p>
-
-              <p class="accord-twt">- <a href="https://x.com/SBSTransit_Ltd/status/1795932775804969448">May
-                  30:</a> NEL service is delayed due to a Signalling fault. Additional travel time of about 20 minutes
-                may be expected. We are sorry for the inconvenience caused.</p>
-
-              <p class="accord-twt">- <a href="https://x.com/SBSTransit_Ltd/status/1793751940075340086">May
-                  24:</a> No DTL service between DT20 FCN and DT25 MTR due to track closure. Free regular and bridging
-                bus services are available btwn DT19 CNT and DT29 BDN. Recovery work is in progress, with shuttle
-                service btwn DT26 MPS and DT29 BDN. We are sorry for the inconvenience caused.</p>
-
-
-              <div class="break-line"></div>
-
-              <p class="accord-date"><u>Apr 2024</u></p>
-              <p class="accord-lrd">NEL: 397 Days* <br>
-                DTL: 357 Days <br>
-                SKPGLRT: 8 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 1</b></p>
-
-              <p class="accord-twt">- <a href="https://twitter.com/SBSTransit_Ltd/status/1782168993186677117">Apr
-                  22:</a> At 0529hrs, No LRT Service at Punggol West Loop due to Power fault. Free Bridging Bus services
-                had been activated at the affecting stations. We apologize for the inconvenience caused.</p>
-
-
-              <div class="break-line"></div>
-
-
-              <p class="accord-date"><u>Mar 2024</u></p>
-              <p class="accord-lrd">NEL: 336 Days* <br>
-                DTL: 296 Days <br>
-                SKPGLRT: 342 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 0</b></p>
-
-              <p class="accord-twt">-
-                <b>No Incidents Available</b>
-              </p>
-
-
-              <div class="break-line"></div>
-
-
-              <p class="accord-date"><u>Feb 2024</u></p>
-              <p class="accord-lrd">NEL: 367 Days* <br>
-                DTL: 327 Days <br>
-                SKPGLRT: 373 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 0</b></p>
-
-              <p class="accord-twt">-
-                <b>No Incidents Available</b>
-              </p>
-
-
-              <div class="break-line"></div>
-
-              <p class="accord-date"><u>Jan 2024</u></p>
-              <p class="accord-lrd">NEL: 307 Days* <br>
-                DTL: 267 Days <br>
-                SKPGLRT: 313 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 2</b></p>
-
-              <p class="accord-twt">- <a href="https://www.facebook.com/groups/sgmrtalt/posts/6997470800347295/">Jan
-                  10:</a> Train Fault. Exact directions unknown (*Unreported Delay)</p>
-              <p class="accord-twt">- <a href="https://www.facebook.com/groups/sgmrtalt/posts/6990667697694272/">Jan
-                  8:</a> Train services in both directions are delayed due to a train fault. Additional travel time of
-                10 minutes
-                may be expected. Recovery work is in progress. We apologise for the inconvenience caused. (*Unreported
-                Delay)</p>
-
-
-              <div class="break-line"></div>
-
+            <!-- SKPGLRT -->
+            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="500ms">
+                <div class="card border-left-lrt h-100 py-2" style="background-color: #e7e7e7;">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="line text-xs font-weight-bold text-lrt text-uppercase mb-1">
+                                    Sengkang-Punggol LRT</div>
+                                <!-- Days -->
+                                <div class="h5 days mb-0 font-weight-bold text-black">71 Days</div>
+                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
+                                    since last reported delay</div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/caplets/SKPGCap.png" alt="BPLRT" width="55px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <!-- 2023-->
-    <div class="row">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-              2023
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <!--  -->
-              <p class="accord-date"><u>Dec 2023</u></p>
-              <p class="accord-lrd">NEL: 276 Days <br>
-                DTL: 236 Days <br>
-                SKPGLRT: 282 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 0</b></p>
+        <br>
+        <br>
 
-              <p class="accord-twt">-
-                <b>No Incidents Available</b>
-              </p>
-
-              <div class="break-line"></div>
-
-              <!--  -->
-              <p class="accord-date"><u>Nov 2023</u></p>
-              <p class="accord-lrd">NEL: 245 Days <br>
-                DTL: 205 Days <br>
-                SKPGLRT: 251 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 0</b></p>
-
-              <p class="accord-twt">-
-                <b>No Incidents Available</b>
-              </p>
-
-              <div class="break-line"></div>
-
-              <!--  -->
-              <p class="accord-date"><u>Oct 2023</u></p>
-              <p class="accord-lrd">NEL: 215 Days <br>
-                DTL: 175 Days <br>
-                SKPGLRT: 221 Days <br></p>
-              <p class="accord-p"><b> No. of Delays (≥ 10 mins): 0</b></p>
-
-              <p class="accord-twt">-
-                <b>No Incidents Available</b>
-              </p>
-
-              <div class="break-line"></div>
-
-              <!--  -->
-              <p class="accord-date"><u>Sep 2023</u></p>
-              <p class="accord-lrd">NEL: 184 Days <br>
-                DTL: 144 Days <br>
-                SKPGLRT: 190 Days <br></p>
-              <p class="accord-p"> No. of Delays (≥ 10 mins): 0</p>
-
-              <p class="accord-twt">-
-                <b>No Incidents Available</b>
-              </p>
-
-              <div class="break-line"></div>
-
-              <!--  -->
-              <p class="accord-date"><u>Aug 2023</u></p>
-              <p class="accord-lrd">NEL: 154 Days* <br>
-                DTL: 114 Days <br>
-                SKPGLRT: 160 Days <br></p>
-              <p class="accord-p"> No. of Delays (≥ 10 mins): 0</p>
-
-              <p class="accord-twt">- <a href="">Aug 2:</a>
-                Due to a Train fault, additional travel time of 5 minutes may be expected in both directions. Recovery
-                work is in progress. We are sorry for the inconvenience caused. [< 5 mins]</p>
-
-                  <div class="break-line"></div>
-
-                  <!--  -->
-                  <p class="accord-date"><u>Jul 2023</u></p>
-                  <p class="accord-lrd">NEL: 123 Days <br>
-                    DTL: 83 Days <br>
-                    SKPGLRT: 129 Days <br></p>
-                  <p class="accord-p"> No. of Delays (≥ 10 mins): 0</p>
-
-                  <p class="accord-twt">-
-                    <b>No Incidents Available</b>
-                  </p>
-
-                  <div class="break-line"></div>
-
-                  <!--  -->
-                  <p class="accord-date"><u>Jun 2023</u></p>
-                  <p class="accord-lrd">NEL: 92 Days <br>
-                    DTL: 51 Days <br>
-                    SKPGLRT: 98 Days <br></p>
-                  <p class="accord-p"> No. of Delays (≥ 10 mins): 0</p>
-
-                  <p class="accord-twt">-
-                    <b>No Incidents Available</b>
-                  </p>
-
-                  <div class="break-line"></div>
-
-                  <!--  -->
-                  <p class="accord-date"><u>May 2023</u></p>
-                  <p class="accord-lrd">NEL: 61 Days <br>
-                    DTL: 20 Days <br>
-                    SKPGLRT: 67 Days <br></p>
-                  <p class="accord-p"> No. of Delays (≥ 10 mins): 1</p>
-
-                  <p class="accord-twt">- <a href="https://twitter.com/SBSTransit_Ltd/status/1656237948411727873">Oct
-                      27:</a>
-                    DTL service from DT35 Expo to DT29 Bedok North is delayed due to a train fault. Free regular bus
-                    services are available at designated stops. Additional travel time of about 15 minutes may be
-                    expected. We are sorry.</p>
-
-                  <div class="break-line"></div>
-
-                  <!--  -->
-                  <p class="accord-date"><u>Apr 2023</u></p>
-                  <p class="accord-lrd">NEL: 31 Days <br>
-                    DTL: 88 Days <br>
-                    SKPGLRT: 37 Days <br></p>
-                  <p class="accord-p"> No. of Delays (≥ 10 mins): 0</p>
-
-                  <p class="accord-twt">-
-                    <b>No Incidents Available</b>
-                  </p>
+        <!-- Delays Overview (≥ 10 mins) -->
+        <div class="row row-do">
+            <div class="chart col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="300ms">
+                <div class="card h-100 py-2" style="background-color: #f6f7f2;">
+                    <div class="card-header py-3 d-flex align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-black">Delays Overview (≥ 10 mins)</h6>
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <div class="chart-area">
+                            <canvas id="delays-overview"></canvas>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
 
-  </section><!-- End Hero -->
+        <br>
+        <br>
 
-  <main id="main">
+        <!-- Recent Incidents -->
+        <div class="row row-ri">
+            <div class="del-o col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="300ms">
+                <div class="card h-100 py-2" style="background-color: #f6f7f2;">
+                    <div class="card-header py-3 d-flex align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-black">Recent Incidents</h6>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-0">
+                            <b>No Incidents Available</b>
+                        </p>
+
+                        <!-- <p class="mb-0" style="color: #000;">
+                            <b>- <a href="https://x.com/SMRT_Singapore/status/1809063049892171915">July 5:</a></b><br>
+                            [TEL]: Due to a track fault, trains travelling towards Woodlands North will not stop at
+                            Orchard station.
+                            Additional travelling time of 10 minutes.
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
 
 
 
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-center">
 
+                        <div class="copywrite-text">
+                            <p>
+                                Data is obtained through each operator's Twitter/Facebook page
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-  </main><!-- End #main -->
+    <script type="text/javascript" id="cookiebanner" src="js/cookies-banner.js" data-position="bottom" data-bg="#f2f3e5"
+        data-fg="#000" data-font-family="Poppins, sans-serif" data-zindex="12345111111"
+        data-message="This website uses cookies to provide necessary site functionality and to improve your experience. By using this website, you agree to our use of cookies.">
+        </script>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        <span>A product from <a href="https://www.nurafianzulkifli.com">Works By NRFZ</a>.
-          Information is obtained through each operator's X (Twitter)/Facebook page</span>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    <script src="js/jquery.min.js"></script>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <script src="js/popper.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <script src="js/pw.bundle.js"></script>
 
-  <!-- Page level plugins -->
-  <script src="assets/vendor/chart.js/Chart.min.js"></script>
+    <script src="js/default-assets/active.js"></script>
 
-  <!-- Page level custom scripts -->
-  <script src="assets/js/charts-sbst/2024.js"></script>
+    <!-- Page level plugins -->
+    <script src="js/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/charts-sbst/2024.js"></script>
+
 
 </body>
 

@@ -46,14 +46,14 @@ img.profile-pic {
 
 /* NEW */
 .row-lrd {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 9em;
+  padding-right: 9em;
 }
 
 .row-do,
 .row-ri {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 9em;
+  padding-right: 9em;
 }
 
 #lrd {
@@ -793,6 +793,11 @@ hr {
   .single-post-area .post-content .post-title {
     font-size: 20px;
   }
+
+  .row-lrd {
+    padding-left: 5em;
+    padding-right: 5em;
+}
 
 }
 

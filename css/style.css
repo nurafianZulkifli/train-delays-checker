@@ -518,7 +518,7 @@ section.follow-area.clearfix {
 @media only screen and (max-width: 767px) {
     #scrollUp {
         right: 20px;
-        bottom: 50px;
+        bottom: 66px;
     }
 }
 
@@ -792,6 +792,10 @@ section.follow-area.clearfix {
     background-color: #ffffff;
 }
 
+.breakpoint-on .classynav ul li.has-down.active > .dd-trigger, .breakpoint-on .classynav ul li.megamenu-item.active > .dd-trigger {
+    background-color: #8fa1c5;
+}
+
 /* :: 8.0 Hero CSS */
 #centered-container {
     position: fixed;
@@ -1020,6 +1024,7 @@ section.follow-area.clearfix {
 @media only screen and (max-width: 767px) {
     .footer-content .copywrite-text p {
         font-size: 12px;
+        text-align: center;
     }
 }
 
@@ -1589,7 +1594,7 @@ li.breadcrumb-item.active a {
 .single-post-area .post-content {
     position: absolute;
     left: 30px;
-    bottom: 30px;
+    bottom: 15px;
     right: 30px;
     z-index: 100;
 }
@@ -1620,9 +1625,16 @@ li.breadcrumb-item.active a {
 }
 
 .single-post-area .post-content .post-title {
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
-    margin-bottom: 0;
+    margin-top: 1px;
+    display: -webkit-box;
+    max-width: 14em;
+    -webkit-line-clamp: 1;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

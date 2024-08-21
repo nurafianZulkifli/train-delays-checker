@@ -739,10 +739,14 @@ hr {
   padding-bottom: 10px;
 }
 
-#proposal {
-  scroll-margin-top: 8vh;
+.single-post-area .post-content .post-title {
+  font-size: 25px;
 }
 
+.pw-blog-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 
 
@@ -786,6 +790,10 @@ hr {
     font-size: 40px;
   }
 
+  .single-post-area .post-content .post-title {
+    font-size: 20px;
+  }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -804,6 +812,9 @@ hr {
     font-size: 10px;
   }
 
+  .single-post-area .post-content .post-title {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -842,13 +853,19 @@ hr {
   .row-lrd {
     padding-left: 1em;
     padding-right: 1em;
-    margin-right: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
   }
 
   .row-do,
-  .row-ri {
+  .row-ri,
+  .row-lines {
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  .single-post-area .post-content .post-title {
+    font-size: 20px;
   }
 
 }

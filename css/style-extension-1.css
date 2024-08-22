@@ -515,13 +515,13 @@ section {
   cursor: default;
 }
 
-.section-title h2::after {
+.section-title-sbst h2::after {
   content: "";
   position: absolute;
   display: block;
   width: 40px;
   height: 3px;
-  background: #c5cde9;
+  background: #824794;
   bottom: 0;
   left: calc(50% - 20px);
   border-radius: 20px;
@@ -756,7 +756,34 @@ hr {
   padding-bottom: 50px;
 }
 
+/* Tooltips */
+[data-title] {
+  border-bottom: 1px dotted #3b3b3b;
+  position: relative;
+  cursor: pointer;
+}
 
+[data-title]:hover::after {
+  content: attr(data-title);
+  padding: 11px;
+  background-color: #8fa1c5;
+  border-radius: 10px;
+  color: #fff;
+  min-width: 450px;
+  position: absolute;
+  top: -53px;
+  left: 0px;
+}
+
+[data-title]:hover::before {
+  content: "";
+  border-top: 10px solid #8fa1c5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: -11px;
+  left: 20px;
+}
 
 
 /* :: 21.0 Responsive_Extension CSS - Width */
@@ -815,7 +842,28 @@ hr {
     padding: 46px 0px 13px;
   }
 
+  [data-title]:hover::before {
+    content: "";
+    border-top: 10px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: -3px;
+    left: 20px;
+  }
 
+  [data-title]:hover::after {
+    content: attr(data-title);
+    padding: 11px;
+    background-color: black;
+    border-radius: 10px;
+    color: lightgray;
+    min-width: 259px;
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -860,7 +908,6 @@ hr {
   }
 
 
-
   .breadcrumb-area .page-title-blog {
     color: #ffffff;
     font-size: 35px;
@@ -888,6 +935,29 @@ hr {
 
   .single-post-area .post-content .post-title {
     font-size: 20px;
+  }
+
+  [data-title]:hover::before {
+    content: "";
+    border-top: 10px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: -3px;
+    left: 20px;
+  }
+
+  [data-title]:hover::after {
+    content: attr(data-title);
+    padding: 11px;
+    background-color: black;
+    border-radius: 10px;
+    color: lightgray;
+    min-width: 259px;
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    font-size: 14px;
   }
 
 }

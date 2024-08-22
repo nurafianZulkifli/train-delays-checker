@@ -766,7 +766,7 @@ hr {
 [data-title]:hover::after {
   content: attr(data-title);
   padding: 11px;
-  background-color: #8fa1c5;
+  background-color: #000000cf;
   border-radius: 10px;
   color: #fff;
   min-width: 450px;
@@ -777,7 +777,7 @@ hr {
 
 [data-title]:hover::before {
   content: "";
-  border-top: 10px solid #8fa1c5;
+  border-top: 10px solid #000;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   position: absolute;

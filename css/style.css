@@ -1285,6 +1285,11 @@ section.follow-area.clearfix {
     margin-bottom: 1em;
 }
 
+.box-indiv-ops {
+    margin-bottom: -4em;
+}
+
+
 .sect-title {
     margin-bottom: -2em;
 }
@@ -1366,7 +1371,7 @@ section.follow-area.clearfix {
     cursor: default;
 }
 
-.about-me-summary {
+.about-me-summary, .about-me-ops {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
@@ -1381,7 +1386,7 @@ section.follow-area.clearfix {
     margin-right: 1em;
 }
 
-.about-me-summary .summ-icon {
+.about-me-summary .summ-icon, .about-me-ops .summ-icon {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;

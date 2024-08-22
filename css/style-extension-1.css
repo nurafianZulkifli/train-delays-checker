@@ -245,36 +245,44 @@ img.profile-pic {
   border-left: 0.25rem solid #035eba !important;
 }
 
-.text-nsl {
+.text-nsl a {
   color: #ff2a2a !important;
+  font-weight: bold;
 }
 
-.text-ewl {
+.text-ewl a {
   color: #009645 !important;
+  font-weight: bold;
 }
 
-.text-ccl {
+.text-ccl a {
   color: #e48d05 !important;
+  font-weight: bold;
 }
 
-.text-tel {
+.text-tel a {
   color: #9d5a18 !important;
+  font-weight: bold;
 }
 
-.text-lrt {
+.text-lrt a {
   color: #708472 !important;
+  font-weight: bold;
 }
 
-.text-nel {
+.text-nel a {
   color: #824794 !important;
+  font-weight: bold;
 }
 
-.text-dtl {
+.text-dtl a {
   color: #035eba !important;
+  font-weight: bold;
 }
 
 .text-info {
   color: #36b9cc !important;
+  font-weight: bold;
 }
 
 p.accord-lrd {
@@ -582,8 +590,8 @@ figcaption p {
 
 .container-blog {
   width: 100%;
-  padding-right: 42px;
-  padding-left: 30px;
+  /* padding-right: 42px;
+  padding-left: 30px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -797,7 +805,16 @@ hr {
   .row-lrd {
     padding-left: 5em;
     padding-right: 5em;
-}
+  }
+
+  .about-me-summary {
+    padding: 46px 26px 13px;
+  }
+
+  .about-me-ops {
+    padding: 46px 0px 13px;
+  }
+
 
 }
 

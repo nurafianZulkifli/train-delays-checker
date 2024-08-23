@@ -756,6 +756,10 @@ hr {
   padding-bottom: 50px;
 }
 
+.diag {
+  padding-top: 5px;
+}
+
 /* Tooltips */
 [data-title] {
   border-bottom: 1px dotted #3b3b3b;

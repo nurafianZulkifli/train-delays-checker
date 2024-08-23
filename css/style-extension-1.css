@@ -760,6 +760,12 @@ hr {
   padding-top: 5px;
 }
 
+.img-logo {
+  scale: 0.3;
+}
+
+
+
 /* Tooltips */
 [data-title] {
   border-bottom: 1px dotted #3b3b3b;

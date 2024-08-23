@@ -769,10 +769,11 @@ hr {
   background-color: #000000cf;
   border-radius: 10px;
   color: #fff;
-  min-width: 450px;
+  min-width: 512px;
   position: absolute;
-  top: -53px;
+  top: -72px;
   left: 0px;
+  text-align: left;
 }
 
 [data-title]:hover::before {

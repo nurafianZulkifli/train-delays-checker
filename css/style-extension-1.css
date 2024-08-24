@@ -370,9 +370,9 @@ p.accord-twt {
   transition-duration: 800ms;
   height: 38px;
   width: 215px;
-  background-color: #8fa1c5;
+  background-color: #b4c5e6;
   display: inline-block;
-  color: #fff;
+  color: #272727;
   text-align: center;
   line-height: 38px;
   border-radius: 20px;
@@ -788,7 +788,7 @@ hr {
 
 [data-title]:hover::before {
   content: "";
-  border-top: 10px solid #000;
+  border-top: 10px solid #2e2e2e;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   position: absolute;
@@ -966,7 +966,7 @@ hr {
     color: lightgray;
     min-width: 259px;
     position: absolute;
-    top: -60px;
+    top: -78px;
     left: 0px;
     font-size: 14px;
   }

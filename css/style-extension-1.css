@@ -853,6 +853,10 @@ hr {
     padding: 46px 0px 13px;
   }
 
+  .about-me-route {
+    padding: 46px 26px 13px;
+  }
+
   [data-title]:hover::before {
     content: "";
     border-top: 10px solid black;

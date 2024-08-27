@@ -1390,6 +1390,21 @@ section.follow-area.clearfix {
     margin-right: 1em;
 }
 
+.about-me-route {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    background-color: #ffffff;
+    padding: 1px 1px 1px;
+    border-radius: 10px;
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .about-me-summary .summ-icon, .about-me-ops .summ-icon {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;

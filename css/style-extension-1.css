@@ -778,6 +778,12 @@ hr {
   background-color: #bac5e3;
 }
 
+.table tr {
+  text-align: center;
+}
+
+
+
 
 /* Tooltips */
 [data-title] {

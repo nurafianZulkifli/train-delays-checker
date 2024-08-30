@@ -764,6 +764,19 @@ hr {
   scale: 0.3;
 }
 
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  background-color: #fdfdfd;
+}
+
+.table {
+  border: 1px solid #dadada;
+  background-color: #ffffff;
+}
+
+.table th {
+  text-align: center;
+  background-color: #bac5e3;
+}
 
 
 /* Tooltips */

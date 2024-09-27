@@ -1214,6 +1214,22 @@ h4.stn {
     font-size: 1.5rem;
   }
 
+  .station-pill-round, .station-pill-round-single {
+    font-size: 10px;
+  }
+
+  .about-me-summary, .about-me-ops {
+    background-color: #ffffff;
+    padding: 46px 10px 13px;
+    border-radius: 10px;
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 }
 
 

@@ -792,7 +792,7 @@ h4.stn {
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
-  cursor: pointer;
+  cursor: default;
 }
 
 
@@ -819,22 +819,26 @@ h4.stn {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.24px;
+  cursor: default;
 }
 
 .station-pill-round:first-child {
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
+  cursor: default;
 }
 
 .station-pill-round:last-child {
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
+  cursor: default;
 }
 
 .stationBlockChildItem {
   display: flex;
   flex-direction: row;
   padding-bottom: 25px;
+  cursor: default;
 }
 
 .stationBlockItem {

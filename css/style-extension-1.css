@@ -795,6 +795,12 @@ h4.stn {
   cursor: default;
 }
 
+h4.stn:hover {
+  color: #6b91b5;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  cursor: pointer;
+}
 
 
 .station-pill-round {
@@ -1111,7 +1117,7 @@ h4.stn {
     height: 145px;
   }
 
-  
+
 
   .profile-det {
     padding: 2em;
@@ -1214,11 +1220,13 @@ h4.stn {
     font-size: 1.5rem;
   }
 
-  .station-pill-round, .station-pill-round-single {
+  .station-pill-round,
+  .station-pill-round-single {
     font-size: 10px;
   }
 
-  .about-me-summary, .about-me-ops {
+  .about-me-summary,
+  .about-me-ops {
     background-color: #ffffff;
     padding: 46px 10px 13px;
     border-radius: 10px;
@@ -1228,7 +1236,7 @@ h4.stn {
     margin-top: 50px;
     margin-left: 1em;
     margin-right: 1em;
-}
+  }
 
 }
 

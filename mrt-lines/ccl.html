@@ -142,23 +142,20 @@
           </div>
         </div>
 
+        <audio id="chimes">
+          <source src="../chimes/CCL_Chime A_V2.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
         <div class="col-md-4 col-lg-4 box-indiv">
           <div class="about-me-ops text-center mb-80 wow fadeInUp" data-wow-delay="700ms">
             <div class="summ-icon">
-              <i class="fa-solid fa-train-subway"></i>
+              <i class="fa-solid fa-train-subway" onclick="playAudio()"></i>
             </div>
             <h3 style="font-size: 20px; font-weight: bolder;">Operator</h3>
             <img src="../img/core-img/stl.png" alt="smrt" width="170px">
           </div>
         </div>
-
-        <!-- <div class="col-md-12 col-12 box-indiv">
-          <div class="about-me-route text-center mb-80 wow fadeInUp" data-wow-delay="100ms">
-            <figcaption> <a href="../img/networks/ccl-diag.png" class="portfolio-img"><img
-                  src="../img/networks/ccl-diag.png" class="img-fluid" alt=""></a>
-            </figcaption>
-          </div>
-        </div> -->
 
         <div class="col-md-12 col-12 box-indiv">
           <div class="about-me-summary text-center mb-80 wow fadeInUp" data-wow-delay="500ms">
@@ -305,9 +302,9 @@
                   </a>
                   <a href="https://landtransportguru.net/lorong-chuan-station/" target="_blank">
                     <div class="stationBlockChildItem">
-                        <div class="station-pill-round-single" style="background-color: #FC9B24; color: #000;">
-                          CC 14
-                        </div>
+                      <div class="station-pill-round-single" style="background-color: #FC9B24; color: #000;">
+                        CC 14
+                      </div>
                       <h4 class="stn" style=" width: 133px;">Lorong Chuan</h4>
                     </div>
                   </a>
@@ -405,9 +402,9 @@
                   </a>
                   <a href="https://landtransportguru.net/haw-par-villa-station/" target="_blank">
                     <div class="stationBlockChildItem">
-                        <div class="station-pill-round-single" style="background-color: #FC9B24; color: #000;">
-                          CC 25
-                        </div>
+                      <div class="station-pill-round-single" style="background-color: #FC9B24; color: #000;">
+                        CC 25
+                      </div>
                       <h4 class="stn" style=" width: 124px;">Haw Par Villa</h4>
                     </div>
                   </a>
@@ -547,6 +544,18 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    var ccl = document.getElementById("chimes");
+
+    function playAudio() {
+      ccl.play();
+    }
+
+    function pauseAudio() {
+      ccl.pause();
+    }
+  </script>
 
 
   <script type="text/javascript" id="cookiebanner" src="../js/cookies-banner.js" data-position="bottom"

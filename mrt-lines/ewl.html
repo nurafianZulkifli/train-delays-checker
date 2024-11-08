@@ -142,23 +142,20 @@
           </div>
         </div>
 
+        <audio id="chimes">
+          <source src="../chimes/EWL_Chime A_V2.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
         <div class="col-md-4 col-lg-4 box-indiv">
           <div class="about-me-ops text-center mb-80 wow fadeInUp" data-wow-delay="700ms">
             <div class="summ-icon">
-              <i class="fa-solid fa-train-subway"></i>
+              <i class="fa-solid fa-train-subway" onclick="playAudio()"></i>
             </div>
             <h3 style="font-size: 20px; font-weight: bolder;">Operator</h3>
             <img src="../img/core-img/stl.png" alt="smrt" width="170px">
           </div>
         </div>
-
-        <!-- <div class="col-md-12 col-12 box-indiv">
-          <div class="about-me-route text-center mb-80 wow fadeInUp" data-wow-delay="100ms">
-            <figcaption> <a href="../img/networks/ewl-diag.png" class="portfolio-img"><img
-                  src="../img/networks/ewl-diag.png" class="img-fluid" alt=""></a>
-            </figcaption>
-          </div>
-        </div> -->
 
         <div class="col-md-12 col-12 box-indiv">
           <div class="about-me-summary text-center mb-80 wow fadeInUp" data-wow-delay="500ms">
@@ -549,6 +546,18 @@
       </div>
     </div>
   </footer>
+  
+  <script>
+    var ewl = document.getElementById("chimes");
+
+    function playAudio() {
+      ewl.play();
+    }
+
+    function pauseAudio() {
+      ewl.pause();
+    }
+  </script>
 
   <script type="text/javascript" id="cookiebanner" src="../js/cookies-banner.js" data-position="bottom"
     data-bg="#f2f3e5" data-fg="#000" data-font-family="Poppins, sans-serif" data-zindex="12345111111"

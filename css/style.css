@@ -1466,8 +1466,15 @@ section.follow-area.clearfix {
     margin-bottom: 0;
 }
 
-.breadcrumb-content .breadcrumb .breadcrumb-item {
+.breadcrumb-content .breadcrumb .breadcrumb-item.active {
     color: #80a8cc;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: default;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item {
+    color: #fff;
     font-weight: 400;
     font-size: 16px;
     cursor: default;

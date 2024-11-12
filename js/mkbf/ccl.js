@@ -9,7 +9,7 @@ var ctx = document.getElementById("mkbf-ccl");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["2020", "2021", "2022", "2023", "Apr 2023 - Mar 2024"],
+    labels: ["2020", "2021", "2022", "2023", "Apr '23 - Mar '24"],
     datasets: [{
       label: "Train-km travelled",
       lineTension: 0.1,

@@ -5,7 +5,7 @@ Chart.defaults.global.defaultFontColor = '#858796';
 
 
 // Area Chart Example
-var ctx = document.getElementById("mkbf-bp");
+var ctx = document.getElementById("mkbf-nel");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
@@ -13,17 +13,17 @@ var myLineChart = new Chart(ctx, {
     datasets: [{
       label: "Train-km travelled",
       lineTension: 0.1,
-      backgroundColor: "rgba(112, 133, 115,0.05)",//
-      borderColor: "rgb(112, 133, 115)",//
+      backgroundColor: "rgba(135, 24, 157,0.05)",//
+      borderColor: "rgb(135, 24, 157)",//
       pointRadius: 3,
-      pointBackgroundColor: "rgb(47, 56, 48)",//
-      pointBorderColor: "rgb(112, 133, 115)",//
+      pointBackgroundColor: "rgb(0, 50, 107)",//
+      pointBorderColor: "rgb(135, 24, 157)",//
       pointHoverRadius: 3,
-      pointHoverBackgroundColor: "rgb(112, 133, 115)",
-      pointHoverBorderColor: "rgb(112, 133, 115)",
+      pointHoverBackgroundColor: "rgb(135, 24, 157)",
+      pointHoverBorderColor: "rgb(135, 24, 157)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [111000,224000,222000,248000,173000],
+      data: [2040000,2064000,2064000,2063000,2068000],
     }],
   },
   options: {
@@ -60,7 +60,7 @@ var myLineChart = new Chart(ctx, {
         ticks: {
           // Shorthand the millions
           callback: function(value, index, values) {
-              return value / 1e4 + 'K';
+              return value / 1e6 + 'M';
           }
         }
       }],

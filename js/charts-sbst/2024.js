@@ -12,7 +12,7 @@ var myLineChart = new Chart(ctx, {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "Number of Delays",
-      lineTension: 0.3,
+      lineTension: 0.05,
       backgroundColor: "rgba(130, 71, 148,0.05)",
       borderColor: "rgb(130, 71, 148)",
       pointRadius: 3,

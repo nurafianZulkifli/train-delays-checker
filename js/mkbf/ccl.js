@@ -12,7 +12,7 @@ var myLineChart = new Chart(ctx, {
     labels: ["2020", "2021", "2022", "2023", "Apr '23 - Mar '24"],
     datasets: [{
       label: "Train-km travelled",
-      lineTension: 0.1,
+      lineTension: 0.05,
       backgroundColor: "rgb(255, 160, 16,0.05)",//
       borderColor: "rgb(255, 160, 16)",//
       pointRadius: 3,

@@ -9,7 +9,7 @@ var ctx = document.getElementById("mkbf-ccl");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["2020", "2021", "2022", "2023", "Apr '23 - Mar '24"],
+    labels: ["2020", "2021", "2022", "2023", "Oct '23 - Sep '24"],
     datasets: [{
       label: "Train-km travelled",
       lineTension: 0.05,
@@ -23,7 +23,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgb(207, 61, 61)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [1733000,1826000,1840000,1209000,1028000],
+      data: [1733000,1826000,1840000,1209000,1040000],
     }],
   },
   options: {

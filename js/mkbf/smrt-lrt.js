@@ -20,6 +20,9 @@ const lineslrt = new Chart(smrtLRT, {
 
 
   options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    
     scales: {
       y: {
         beginAtZero: true

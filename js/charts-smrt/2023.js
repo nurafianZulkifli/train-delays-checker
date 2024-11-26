@@ -18,6 +18,9 @@ const doverviewsm23 = new Chart(doverview23sm, {
 
 
   options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    
     scales: {
       y: {
         beginAtZero: true,

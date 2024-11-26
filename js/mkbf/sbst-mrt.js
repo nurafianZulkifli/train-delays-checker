@@ -29,6 +29,9 @@ const linesbst = new Chart(sbstMRT, {
 
 
   options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    
     scales: {
       y: {
         beginAtZero: true

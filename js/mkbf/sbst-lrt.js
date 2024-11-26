@@ -19,6 +19,9 @@ const lineslrt2 = new Chart(sbstLRT, {
 
 
   options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    
     scales: {
       y: {
         beginAtZero: true

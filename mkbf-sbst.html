@@ -123,15 +123,15 @@
                 <div class="card h-100 py-2" style="background-color: #f6f7f2;">
                     <div class="card-header py-3 d-flex align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-black">
-                            <a href="./mrt-lines/nel.html">
-                                North East Line
+                            <a href="./our-networks.html#mrt">
+                                MRT Lines
                             </a>
                         </h6>
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
                         <div class="chart-area">
-                            <canvas id="mkbf-nel"></canvas>
+                            <canvas id="mkbf-sbst-mrt" height="160"></canvas>
                         </div>
                     </div>
                 </div>
@@ -141,38 +141,15 @@
                 <div class="card h-100 py-2" style="background-color: #f6f7f2;">
                     <div class="card-header py-3 d-flex align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-black">
-                            <a href="./mrt-lines/dtl.html">
-                                Downtown Line
+                            <a href="./our-networks.html#lrt">
+                                LRT Lines
                             </a>
                         </h6>
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
                         <div class="chart-area">
-                            <canvas id="mkbf-dtl"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="chart chart-mkbf col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                <div class="card h-100 py-2" style="background-color: #f6f7f2;">
-                    <div class="card-header py-3 d-flex align-items-center justify-content-between">
-                        <h6 class="m-0 font-weight-bold text-black">
-                            <a href="./mrt-lines/sk.html">
-                                Sengkang
-                            </a>
-                            -
-                            <a href="./mrt-lines/pg.html">
-                                Punggol
-                            </a>
-                            LRT
-                        </h6>
-                    </div>
-                    <!-- Card Body -->
-                    <div class="card-body">
-                        <div class="chart-area">
-                            <canvas id="mkbf-sp"></canvas>
+                            <canvas id="mkbf-sbst-lrt" height="110"></canvas>
                         </div>
                     </div>
                 </div>
@@ -218,12 +195,11 @@
     <script src="js/default-assets/active.js"></script>
 
     <!-- Page level plugins -->
-    <script src="js/chart.js/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/mkbf/nel.js"></script>
-    <script src="js/mkbf/dtl.js"></script>
-    <script src="js/mkbf/sp.js"></script>
+    <script src="js/mkbf/sbst-mrt.js"></script>
+    <script src="js/mkbf/sbst-lrt.js"></script>
 
 
 </body>

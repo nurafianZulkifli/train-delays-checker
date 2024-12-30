@@ -951,10 +951,6 @@ h4.stn:hover {
   left: 20px;
 }
 
-canvas {
-  height: 221px;
-}
-
 #mrt,
 #lrt {
   scroll-margin-top: 8vh;

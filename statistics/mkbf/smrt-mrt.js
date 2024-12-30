@@ -31,9 +31,6 @@ const linesmrt = new Chart(smrtMRT, {
       backgroundColor: 'rgba(255, 160, 16,0.05)',
       borderWidth: 3
     }]//
-
-
-
   },
 
 

@@ -311,12 +311,12 @@ p.accord-twt {
 }
 
 .accordion-body {
-  background-color: #f6f7f2;
+  background-color: #fff;
   color: #000;
 }
 
 .accordion-button.collapsed {
-  background-color: #e0e1dc;
+  background-color: #fff;
   color: #000;
 }
 
@@ -515,21 +515,26 @@ p.accord-twt {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  padding-bottom: 137px;
   overflow: hidden;
 }
 
-.section-title,
-.section-title-smrt {
+.section-title {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.section-title-home {
+  text-align: left;
+  padding-bottom: 30px;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
   position: relative;
   color: #000;
   cursor: default;
@@ -950,8 +955,53 @@ canvas {
   height: 221px;
 }
 
-#mrt, #lrt {
+#mrt,
+#lrt {
   scroll-margin-top: 8vh;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item-aag.active {
+  color: #6d8fad;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: default;
+}
+
+
+
+.breadcrumb-content .breadcrumb .breadcrumb-item-aag {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: default;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item-aag+.breadcrumb-item-aag::before {
+  content: '\f105';
+  color: #000;
+  font-family: "FontAwesome";
+  float: left;
+  padding-left: var(--bs-breadcrumb-item-padding-x);
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+}
+
+canvas#mkbf-smrt-mrt,
+canvas#mkbf-smrt-lrt,
+canvas#mkbf-sbst-mrt,
+canvas#mkbf-sbst-lrt {
+  height: 271px !important;
+}
+
+
+canvas#delays-overview-sm-24,
+canvas#delays-overview-sb-24,
+canvas#delays-overview-sm-23,
+canvas#delays-overview-sb-23 {
+  height: 231px !important;
+}
+
+h2.page-title {
+  margin-bottom: 1em;
 }
 
 /* :: 21.0 Responsive_Extension CSS - Width */
@@ -1138,6 +1188,11 @@ canvas {
   h3 {
     font-size: 1.5rem;
   }
+
+  .breadcrumb {
+    padding-left: 11.5em;
+    padding-right: 11.5em;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -1265,6 +1320,13 @@ canvas {
     margin-top: 50px;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  .section-title-home {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 0em;
+    padding-right: 0em;
   }
 
 }

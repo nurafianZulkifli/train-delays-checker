@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>SMRT Trains | TDC</title>
+    <title>Line Overview | TDC</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <meta property="og:image" content="https://i.imgur.com/aNQTQtO.png" />
@@ -16,11 +16,16 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-extension-1.css">
 
     <link rel="stylesheet" type="text/css"
         href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
 
 </head>
 
@@ -32,7 +37,6 @@
 
 
     <header class="header-area">
-
         <div class="main-header-area">
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
@@ -53,25 +57,8 @@
 
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="#">Days Overview</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./index.html">SMRT Trains</a></li>
-                                            <li><a href="./sbst.html">SBS Transit</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Performance</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./mkbf-smrt.html">SMRT Trains</a></li>
-                                            <li><a href="./mkbf-sbst.html">SBS Transit</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Past Records</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./past-records-smrt.html">SMRT Trains</a></li>
-                                            <li><a href="./past-records-sbst.html">SBS Transit</a></li>
-                                            <li><a href="./fault-overview.html">Faults Overview</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="statistics/statistics.html">Statistics</a></li>
+                                    <li><a href="past-records/past-records.html">Past Records</a></li>
                                     <li><a href="our-networks.html">Networks</a></li>
                                 </ul>
                             </div>
@@ -96,11 +83,6 @@
                             <h2 class="profile-name wow fadeInUp" data-wow-delay="400ms">Train Delays Checker</h2>
                             <h2 class="profile-desc wow fadeInUp" data-wow-delay="400ms">Overview of the days since last
                                 reported delays across Singapore's train network.
-                                <h2 class="profile-desc wow fadeInUp" data-wow-delay="400ms"> <a
-                                        href="https://www.reddit.com/r/transit/comments/141207u/launched_yesterday_alstom_movia_contract_r151_emu/"
-                                        class="credits"><i class='bx bxs-camera'></i> &nbsp;Photo Credits: u/Tx2171F
-                                        (Reddit)</a>
-                                </h2>
                         </div>
                     </div>
                 </div>
@@ -112,176 +94,37 @@
 
 
     <section id="lrd" class="d-flex flex-column justify-content-center">
-        <!-- Last Reported Delays -->
-        <div class="section-title section-title-smrt">
-            <h2><img src="img/core-img/stl.png" alt="smrt" width="250px"></h2>
-            <p>(Data as of 15 December 2024)</p>
-        </div>
-
-        <div class="row row-lrd">
-            <!-- NSL -->
-            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="card border-left-nsl h-100 py-2" style="background-color: #ff9e97;">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="line text-xs font-weight-bold text-nsl text-uppercase mb-1">
-                                    <a href="mrt-lines/nsl.html">North-South Line</a>
-                                </div>
-                                <!-- Days -->
-                                <div class="h5 days mb-0 font-weight-bold text-black">113 Days</div>
-                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                                    since last reported delay</div>
-                            </div>
-                            <div class="col-auto">
-                                <img src="img/caplets/NSLCap.png" alt="NSL" width="55px">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- EWL -->
-            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="300ms">
-                <div class="card border-left-ewl h-100 py-2" style="background-color: #afe9ca;">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="line text-xs font-weight-bold text-ewl text-uppercase mb-1">
-                                    <a href="mrt-lines/ewl.html">East-West Line</a>
-                                </div>
-                                <!-- Days -->
-                                <div class="h5 days mb-0 font-weight-bold text-black">66 Days</div>
-                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                                    since last reported delay</div>
-                            </div>
-                            <div class="col-auto">
-                                <img src="img/caplets/EWLCap.png" alt="EWL" width="55px">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CCL -->
-            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="500ms">
-                <div class="card border-left-ccl h-100 py-2" style="background-color: #fdd79b;">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="line text-xs font-weight-bold text-ccl text-uppercase mb-1">
-                                    <a href="mrt-lines/ccl.html">Circle Line</a>
-                                </div>
-                                <!-- Days -->
-                                <div class="h5 days mb-0 font-weight-bold text-black">1 Day</div>
-                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                                    since last reported delay</div>
-                            </div>
-                            <div class="col-auto">
-                                <img src="img/caplets/CCLCap.png" alt="CCL" width="55px">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TEL -->
-            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="700ms">
-                <div class="card border-left-tel h-100 py-2" style="background-color: #e8ccb0;">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="line text-xs font-weight-bold text-tel text-uppercase mb-1">
-                                    <a href="mrt-lines/tel.html">Thomson-East Coast Line</a>
-                                </div>
-                                <!-- Days -->
-                                <div class="h5 days mb-0 font-weight-bold text-black">75 Days</div>
-                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                                    since last reported delay</div>
-                            </div>
-                            <div class="col-auto">
-                                <img src="img/caplets/TELCap.png" alt="TEL" width="55px">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- BPLRT -->
-            <div class="col-xl-3 col-md-6 mb-4 wow fadeInUp" data-wow-delay="900ms">
-                <div class="card border-left-lrt h-100 py-2" style="background-color: #e7e7e7;">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="line text-xs font-weight-bold text-lrt text-uppercase mb-1">
-                                    <a href="mrt-lines/bp.html">Bukit Panjang LRT</a>
-                                </div>
-                                <!-- Days -->
-                                <div class="h5 days mb-0 font-weight-bold text-black">54 Days</div>
-                                <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                                    since last reported delay</div>
-                            </div>
-                            <div class="col-auto">
-                                <img src="img/caplets/BPCap.png" alt="BPLRT" width="55px">
-                            </div>
-                        </div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item-aag">Home
+                                </li>
+                                <li class="breadcrumb-item-aag active" aria-current="page">At a glance</li>
+                            </ol>
+                        </nav>
+                        <h2 class="page-title">Line Overview</h2>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Days Overview -->
+        <div w3-include-html="overview/days-overview.html"></div>
 
         <br>
         <br>
 
         <!-- Delays Overview (≥ 10 mins) -->
-        <div class="row row-do">
-            <div class="chart col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="300ms">
-                <div class="card h-100 py-2" style="background-color: #f6f7f2;">
-                    <div class="card-header py-3 d-flex align-items-center justify-content-between">
-                        <h6 class="m-0 font-weight-bold text-black">
-                            <span data-title="Delays not more or equal to 10 mins won't be reflected in this chart.">
-                                Delays Overview (≥ 10 mins)
-                            </span>
-                        </h6>
-                    </div>
-                    <!-- Card Body -->
-                    <div class="card-body">
-                        <div class="chart-area">
-                            <canvas id="delays-overview-sm-24"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div w3-include-html="overview/delays-overview.html"></div>
 
         <br>
         <br>
 
-        <!-- Recent Incidents -->
-        <div class="row row-ri">
-            <div class="del-o col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="300ms">
-                <div class="card h-100 py-2" style="background-color: #f6f7f2;">
-                    <div class="card-header py-3 d-flex align-items-center justify-content-between">
-                        <h6 class="m-0 font-weight-bold text-black">
-                            <span data-title="Incidents reported officially/unofficially will be reflected here.">
-                                Recent Incidents
-                            </span>
-                        </h6>
-                    </div>
-                    <div class="card-body">
-                        <!-- <p class="mb-0">
-                            <b>No Incidents Reported</b>
-                        </p> -->
-                        <p class="mb-0" style="color: #000;">
-                            <b>- <a href="https://x.com/SMRT_Singapore/status/1867884520252575930">Dec
-                                    14:</a></b><br>
-                            [CCL] UPDATE: Additional 30mins train travel time between #Promenade and #Serangoon due to a
-                            train fault. Free regular bus service are available between #Promenade and #Serangoon.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <div w3-include-html="overview/recent-incidents.html"></div>
 
     </section><!-- End Hero -->
 
@@ -304,6 +147,9 @@
         </div>
     </footer>
 
+    <!-- Modular DIVs -->
+    <script> w3IncludeHTML(); </script>
+
     <script type="text/javascript" id="cookiebanner" src="js/cookies-banner.js" data-position="bottom" data-bg="#f2f3e5"
         data-fg="#000" data-font-family="Poppins, sans-serif" data-zindex="12345111111"
         data-message="This website uses cookies to provide necessary site functionality and to improve your experience. By using this website, you agree to our use of cookies.">
@@ -311,10 +157,13 @@
 
     <script src="js/jquery.min.js"></script>
 
-    <script src="js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 
     <script src="js/pw.bundle.js"></script>
 
@@ -324,7 +173,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/charts-smrt/2024.js"></script>
+    <script src="overview/delays-overview-both.js"></script>
 
 
 </body>

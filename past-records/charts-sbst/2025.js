@@ -1,16 +1,16 @@
 
-const doverview24sm = document.getElementById('delays-overview-sm-24').getContext('2d');
+const doverview25sb = document.getElementById('delays-overview-sb-25').getContext('2d');
 
-const doverviewsm24 = new Chart(doverview24sm, {
+const doverviewsb25 = new Chart(doverview25sb, {
   type: 'line',
   data: {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "No. of Delays",
-      data: [1,1,2,1,1,1,2,2,9,3,0,7],
-      borderColor: 'rgb(207, 61, 61)',
+      data: [0,0,0,0,0,0,0,0,0,0,0,0],
+      borderColor: 'rgb(130, 71, 148)',
       fill: true,
-      backgroundColor: 'rgba(207, 61, 61,0.05)',
+      backgroundColor: 'rgba(130, 71, 148,0.05)',
       borderWidth: 3
     }]//
   },

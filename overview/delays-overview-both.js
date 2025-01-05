@@ -7,7 +7,7 @@ const doverviewsm24 = new Chart(doverview24sm, {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "SMRT Trains",
-      data: [1,1,2,1,1,1,2,2,9,3,0,7],
+      data: [1],
       borderColor: 'rgb(207, 61, 61)',
       fill: true,
       backgroundColor: 'rgba(207, 61, 61,0.05)',
@@ -16,7 +16,7 @@ const doverviewsm24 = new Chart(doverview24sm, {
 
     {
       label: "SBS Transit",
-      data: [2,0,0,1,2,1,0,0,0,0,0,0],
+      data: [0],
       borderColor: 'rgb(130, 71, 148)',
       fill: true,
       backgroundColor: 'rgba(130, 71, 148,0.05)',

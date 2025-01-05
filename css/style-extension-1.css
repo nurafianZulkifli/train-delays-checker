@@ -13,8 +13,8 @@
 
 /* :: 17.0 Hero Details CSS */
 img.profile-pic {
-  width: 311px;
-  height: 175px;
+  width: 380px;
+  height: 125px;
 }
 
 .profile-det {
@@ -936,7 +936,7 @@ h4.stn:hover {
   color: #fff;
   min-width: 512px;
   position: absolute;
-  top: -72px;
+  top: -52px;
   left: 0px;
   text-align: left;
 }
@@ -1362,8 +1362,8 @@ h2.page-title {
 
 @media (min-height: 400px) and (max-height: 529px) {
   img.profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 139px;
   }
 
   .breadcrumb-content {

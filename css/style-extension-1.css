@@ -1002,6 +1002,11 @@ h2.page-title {
   margin-bottom: 1em;
 }
 
+h6 {
+font-size: 14px;
+text-align: justify;
+}
+
 /* :: 21.0 Responsive_Extension CSS - Width */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   img.profile-pic {

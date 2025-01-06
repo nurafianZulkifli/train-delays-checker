@@ -1005,8 +1005,8 @@ h2.page-title {
 /* :: 21.0 Responsive_Extension CSS - Width */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   img.profile-pic {
-    width: 310px;
-    height: 185px;
+    width: 391px;
+    height: 127px;
   }
 
   .profile-det {
@@ -1022,8 +1022,8 @@ h2.page-title {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   img.profile-pic {
-    width: 310px;
-    height: 185px;
+    width: 377px;
+    height: 123px;
   }
 
   .profile-det {
@@ -1088,8 +1088,8 @@ h2.page-title {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   img.profile-pic {
-    width: 280px;
-    height: 178px;
+    width: 317px;
+    height: 113px;
   }
 
   .profile-det {
@@ -1196,7 +1196,7 @@ h2.page-title {
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   img.profile-pic {
     width: 250px;
-    height: 145px;
+    height: 95px;
   }
 
 

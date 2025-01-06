@@ -1007,6 +1007,31 @@ font-size: 16px;
 text-align: justify;
 }
 
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.pagination a.active {
+  background-color: #b4c5e6;
+  color: white;
+  color: #272727;
+  border-radius: 20px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #80a8cc;
+  border-radius: 20px;
+  transition-duration: 500ms !important;
+}
+
 /* :: 21.0 Responsive_Extension CSS - Width */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   img.profile-pic {

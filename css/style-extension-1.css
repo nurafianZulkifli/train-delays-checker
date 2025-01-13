@@ -621,6 +621,10 @@ figcaption p {
   margin-left: auto;
 }
 
+.container-xxl {
+  max-width: 1450px;
+}
+
 .sidebar-box {
   margin-bottom: 40px;
   font-size: 15px;

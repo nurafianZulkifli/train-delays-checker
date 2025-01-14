@@ -1009,6 +1009,10 @@ section.follow-area.clearfix {
 
 
 /* :: 10.0 Footer CSS */
+.footer-area {
+    background-color: #f5f6f2;
+}
+
 .footer-content {
     padding: 20px 0;
     padding-right: 57px;
@@ -1390,6 +1394,26 @@ section.follow-area.clearfix {
     margin-right: 1em;
 }
 
+.about-me-stations {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    background-color: #f5f6f2;
+    padding: 46px 26px 13px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.wbnrfz-summ {
+    background-color: #f5f6f2;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
 .about-me-route {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
@@ -1437,6 +1461,12 @@ section.follow-area.clearfix {
     height: 370px;
 }
 
+.breadcrumb-area-lines {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
 @media only screen and (max-width: 767px) {
     .breadcrumb-area {
         height: 240px;
@@ -1444,6 +1474,12 @@ section.follow-area.clearfix {
 }
 
 .breadcrumb-area .page-title {
+    color: #ffffff;
+    font-size: 36px;
+    cursor: default;
+}
+
+.breadcrumb-area-lines .page-title {
     color: #ffffff;
     font-size: 36px;
     cursor: default;

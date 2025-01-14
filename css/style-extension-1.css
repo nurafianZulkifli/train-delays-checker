@@ -57,7 +57,7 @@ img.profile-pic {
 }
 
 #lrd {
-  background-color: #f5f6f2;
+  background-color: #e9eae5;
 }
 
 #hero-smrt a.credits,
@@ -311,12 +311,12 @@ p.accord-twt {
 }
 
 .accordion-body {
-  background-color: #fff;
+  background-color: #f5f6f2;
   color: #000;
 }
 
 .accordion-button.collapsed {
-  background-color: #fff;
+  background-color: #f5f6f2;
   color: #000;
 }
 
@@ -615,8 +615,6 @@ figcaption p {
 
 .container-blog {
   width: 100%;
-  /* padding-right: 42px;
-  padding-left: 30px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -1036,6 +1034,93 @@ text-align: justify;
   transition-duration: 500ms !important;
 }
 
+/*  */
+.wbnrfz_details .details_catagory_wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+}
+
+.wbnrfz_details .details_catagory_wrap .single_catagory .social_links a {
+  font-size: 16px;
+  color: #000;
+  margin-right: 10px;
+}
+
+.wbnrfz_details .details_catagory_wrap .single_catagory .social_links a:hover {
+  color: #80a8cc;
+}
+
+.wbnrfz_details .details_catagory_wrap .single_catagory {
+  margin-bottom: 30px;
+}
+
+.wbnrfz_details .details_catagory_wrap .single_catagory h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+.wbnrfz_details .details_catagory_wrap .single_catagory span {
+  font-size: 12px;
+  color: #828793;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-bottom: 6px;
+  cursor: default;
+}
+
+.wbnrfz_details .banner {
+  margin-bottom: 30px;
+}
+
+.wbnrfz_details .details_info {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.wbnrfz_details h1 {
+  font-size: clamp(34px, 8.5vw, 40px) !important;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.wbnrfz_btn {
+  position: relative;
+  z-index: 1;
+  min-width: auto;
+  height: 46px;
+  line-height: 42px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #e4e6cf;
+  color: #252525;
+  border-radius: 60px;
+  transition-duration: 500ms;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.wbnrfz_details .col-lg-6, .wbnrfz_details .col-lg-4 {
+  padding-top: 25px;
+}
+
+.section-padding-80-0 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f6f7f2;
+}
+
+.row-line-diag {
+  padding-bottom: 20px;
+}
+
+
 /* :: 21.0 Responsive_Extension CSS - Width */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   img.profile-pic {
@@ -1139,6 +1224,10 @@ text-align: justify;
   .single-post-area .post-content .post-title {
     font-size: 15px;
   }
+
+  .logo-operator {
+    width: 120px;
+  }
 }
 
 @media only screen and (min-width: 333px) and (max-width: 575px) {
@@ -1224,6 +1313,10 @@ text-align: justify;
   .breadcrumb {
     padding-left: 11.5em;
     padding-right: 11.5em;
+  }
+
+  .logo-operator {
+    width: 120px;
   }
 }
 
@@ -1359,6 +1452,10 @@ text-align: justify;
     padding-bottom: 30px;
     padding-left: 0em;
     padding-right: 0em;
+  }
+
+  .logo-operator {
+    width: 120px;
   }
 
 }

@@ -835,7 +835,6 @@ h4.stn:hover {
 .station-pill-round {
   width: fit-content;
   height: fit-content;
-  /* border-radius: 20px; */
   padding: 4px 8px;
   font-size: 12px;
   text-align: center;

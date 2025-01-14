@@ -1005,8 +1005,8 @@ h2.page-title {
 }
 
 h6 {
-font-size: 16px;
-text-align: justify;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .pagination {
@@ -1106,7 +1106,8 @@ text-align: justify;
   margin-top: 5px;
 }
 
-.wbnrfz_details .col-lg-6, .wbnrfz_details .col-lg-4 {
+.wbnrfz_details .col-lg-6,
+.wbnrfz_details .col-lg-4 {
   padding-top: 25px;
 }
 
@@ -1118,6 +1119,11 @@ text-align: justify;
 
 .row-line-diag {
   padding-bottom: 20px;
+}
+
+.ld-s-title {
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 
@@ -1326,8 +1332,6 @@ text-align: justify;
     height: 95px;
   }
 
-
-
   .profile-det {
     padding: 2em;
     padding-top: 0.5em;
@@ -1456,6 +1460,15 @@ text-align: justify;
 
   .logo-operator {
     width: 120px;
+  }
+
+  .about-me-stations {
+    padding: 20px 26px 20px;
+  }
+
+  .ld-s-title {
+    font-size: 25px;
+    font-weight: bolder;
   }
 
 }

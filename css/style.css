@@ -1496,7 +1496,7 @@ section.follow-area.clearfix {
 
 .breadcrumb-area-lines .page-title {
     color: #ffffff;
-    font-size: 36px;
+    font-size: 30px;
     cursor: default;
 }
 
@@ -1509,6 +1509,7 @@ section.follow-area.clearfix {
 .breadcrumb-content {
     position: relative;
     z-index: 1;
+    padding-top: 10px;
 }
 
 .breadcrumb-content .breadcrumb {

@@ -122,6 +122,14 @@ ul li {
 
 .container {
     width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-summary {
+    width: 100%;
     padding-right: 25px;
     padding-left: 25px;
     margin-right: auto;
@@ -1418,7 +1426,7 @@ section.follow-area.clearfix {
 .wbnrfz-summ {
     background-color: #f5f6f2;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .about-me-route {

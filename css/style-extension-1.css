@@ -1126,6 +1126,10 @@ h6 {
   padding-bottom: 30px;
 }
 
+.line-strip {
+  margin-right: 5px;
+}
+
 
 /* :: 21.0 Responsive_Extension CSS - Width */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1470,6 +1474,11 @@ h6 {
     font-size: 25px;
     font-weight: bolder;
   }
+
+  .wbnrfz_details .details_catagory_wrap {
+    display: block;
+    margin-bottom: 40px;
+}
 
 }
 

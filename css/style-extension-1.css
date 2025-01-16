@@ -964,8 +964,6 @@ h4.stn:hover {
   cursor: default;
 }
 
-
-
 .breadcrumb-content .breadcrumb .breadcrumb-item-aag {
   color: #000;
   font-weight: 400;
@@ -974,6 +972,15 @@ h4.stn:hover {
 }
 
 .breadcrumb-content .breadcrumb .breadcrumb-item-aag+.breadcrumb-item-aag::before {
+  content: '\f105';
+  color: #000;
+  font-family: "FontAwesome";
+  float: left;
+  padding-left: var(--bs-breadcrumb-item-padding-x);
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+}
+
+.breadcrumb-content-subp .breadcrumb .breadcrumb-item-aag+.breadcrumb-item-aag::before {
   content: '\f105';
   color: #000;
   font-family: "FontAwesome";
@@ -1130,6 +1137,14 @@ h6 {
   margin-right: 5px;
 }
 
+.breadcrumb-content {
+  padding-top: 3em;
+}
+
+.breadcrumb-content-subp {
+  padding-top: 1em;
+}
+
 
 /* :: 21.0 Responsive_Extension CSS - Width */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1146,6 +1161,12 @@ h6 {
   .profile-link a {
     padding: 1.0em;
     font-size: 10px;
+  }
+
+  .row-do,
+  .row-ri {
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
@@ -1227,6 +1248,16 @@ h6 {
   .wbnrfz-summ {
     padding-top: 30px;
   }
+
+  .breadcrumb-content-subp {
+    padding-top: 1em;
+  }
+
+  .row-do,
+  .row-ri {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1265,6 +1296,16 @@ h6 {
 
   .wbnrfz-summ {
     padding-top: 30px;
+  }
+
+  .breadcrumb-content-subp {
+    padding-top: 1em;
+  }
+
+  .row-do,
+  .row-ri {
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
@@ -1532,10 +1573,19 @@ h6 {
     padding-top: 3em;
   }
 
+  .breadcrumb-content-subp {
+    padding-top: 1em;
+  }
+
   .wbnrfz-summ {
     padding-top: 30px;
   }
 
+  .row-do,
+  .row-ri {
+    padding-left:2em;
+    padding-right: 2em;
+  }
 }
 
 @media only screen and (min-width: 100px) and (max-width: 319px) {
@@ -1556,6 +1606,10 @@ h6 {
   .wbnrfz_details .details_catagory_wrap {
     display: block;
     margin-bottom: 40px;
+  }
+
+  .breadcrumb-content-subp {
+    padding-top: 1em;
   }
 }
 

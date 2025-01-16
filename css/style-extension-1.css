@@ -46,18 +46,19 @@ img.profile-pic {
 
 /* NEW */
 .row-lrd {
-  padding-left: 9em;
-  padding-right: 9em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 .row-do,
 .row-ri {
-  padding-left: 9em;
-  padding-right: 9em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 #lrd {
   background-color: #e9eae5;
+  padding-top: 10px;
 }
 
 #hero-smrt a.credits,
@@ -623,6 +624,12 @@ figcaption p {
   max-width: 1450px;
 }
 
+.container-xxl-netw {
+  max-width: 1450px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
 .sidebar-box {
   margin-bottom: 40px;
   font-size: 15px;
@@ -1164,7 +1171,8 @@ h6 {
   }
 
   .row-do,
-  .row-ri {
+  .row-ri,
+  .row-lrd {
     padding-left: 3em;
     padding-right: 3em;
   }
@@ -1254,7 +1262,8 @@ h6 {
   }
 
   .row-do,
-  .row-ri {
+  .row-ri,
+  .row-lrd {
     padding-left: 3em;
     padding-right: 3em;
   }
@@ -1303,7 +1312,8 @@ h6 {
   }
 
   .row-do,
-  .row-ri {
+  .row-ri,
+  .row-lrd {
     padding-left: 3em;
     padding-right: 3em;
   }

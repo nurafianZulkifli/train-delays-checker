@@ -46,14 +46,14 @@ img.profile-pic {
 
 /* NEW */
 .row-lrd {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 9em;
+  padding-right: 9em;
 }
 
 .row-do,
 .row-ri {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 9em;
+  padding-right: 9em;
 }
 
 #lrd {
@@ -625,9 +625,9 @@ figcaption p {
 }
 
 .container-xxl-netw {
-  max-width: 1450px;
-  padding-right: 40px;
-  padding-left: 40px;
+  max-width: 1800px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .sidebar-box {
@@ -1154,6 +1154,19 @@ h6 {
 
 
 /* :: 21.0 Responsive_Extension CSS - Width */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .row-lrd {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  
+  .row-do,
+  .row-ri {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   img.profile-pic {
     width: 391px;

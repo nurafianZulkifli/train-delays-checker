@@ -371,12 +371,14 @@ p.accord-twt {
 .days {
   font-size: 30px;
   font-weight: bolder;
+  cursor: default;
 }
 
 .slrd {
   color: #000;
   font-size: 13px;
   width: 110%;
+  cursor: default;
 }
 
 .break-line {
@@ -934,6 +936,7 @@ h4.stn:hover {
   border-bottom: 1px dotted #3b3b3b;
   position: relative;
   cursor: pointer;
+  z-index: 999;
 }
 
 [data-title]:hover::after {
@@ -949,6 +952,7 @@ h4.stn:hover {
   text-align: left;
 }
 
+/* 
 [data-title]:hover::before {
   content: "";
   border-top: 10px solid #2e2e2e;
@@ -957,7 +961,7 @@ h4.stn:hover {
   position: absolute;
   top: -11px;
   left: 20px;
-}
+} */
 
 #mrt,
 #lrt {

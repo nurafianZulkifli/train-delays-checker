@@ -396,6 +396,11 @@
     .classynav ul li.active a::before {
         display: none;
     }
+
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 49.333333%;
+    }
 }
 
 /* ---- */
@@ -449,6 +454,11 @@
         padding-left: 3em;
         padding-right: 3em;
     }
+
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 49.333333%;
+    }
 }
 
 /* ---- */
@@ -457,7 +467,7 @@
 @media only screen and (min-width: 333px) and (max-width: 575px) {
     img.profile-pic {
         width: 250px;
-        height: 250px;
+        height: 95px;
     }
 
     img.logo {
@@ -550,11 +560,24 @@
     }
 
     .breadcrumb-content {
-        padding-top: 3em;
+        padding-top: 1em;
     }
 
     .wbnrfz-summ {
         padding-top: 30px;
+    }
+
+    .row-do,
+    .row-ri {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .row-lrd {
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-right: 1px;
+        margin-left: 1px;
     }
 }
 

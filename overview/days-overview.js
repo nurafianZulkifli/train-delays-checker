@@ -31,3 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Update the text content of the element to display the current date
     dateElement.textContent = `Data as of ${formattedDate}`;
 });
+
+window.setTimeout(function() {
+    $(".alert-do").fadeTo(500, 0).slideUp(500, function(){
+        $(this).remove(); 
+    });
+}, 6000);

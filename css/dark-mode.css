@@ -249,6 +249,16 @@ body.dark-mode [data-title] {
     border-bottom: 1px dotted #fff;
 }
 
+body.dark-mode .alert-info {
+    background-color: #032830;
+    color: #3ad1f6;
+    border-color: #087990;
+}
+
+body.dark-mode .alert-dismissible .btn-close {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") !important;
+}
+
 /* ------------------------------------------ */
 
 /* ------------------------------------------ 2.0 Statistics/Past Records Page ------------------------------------------ */
@@ -305,6 +315,63 @@ body.dark-mode .wbnrfz_details .details_catagory_wrap .single_catagory .social_l
 body.dark-mode .about-me-stations {
     background-color: #242526;
     transition: all 0.5s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body.dark-mode #line-nsl,
+    body.dark-mode #line-nsl-img {
+        content: url('../img/networks/nsl-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-ewl,
+    body.dark-mode #line-ewl-img {
+        content: url('../img/networks/ewl-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-sk,
+    body.dark-mode #line-sk-img {
+        content: url('../img/networks/sk-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-ccl,
+    body.dark-mode #line-ccl-img {
+        content: url('../img/networks/ccl-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-nel,
+    body.dark-mode #line-nel-img {
+        content: url('../img/networks/nel-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-tel,
+    body.dark-mode #line-tel-img {
+        content: url('../img/networks/tel-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-pg,
+    body.dark-mode #line-pg-img {
+        content: url('../img/networks/pg-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-dtl,
+    body.dark-mode #line-dtl-img {
+        content: url('../img/networks/dtl-diag-dark.png');
+        transition: all 0.5s ease;
+    }
+
+    body.dark-mode #line-bp,
+    body.dark-mode #line-bp-img {
+        content: url('../img/networks/bp-diag-dark.png');
+        transition: all 0.5s ease;
+    }
 }
 
 /* ------------------------------------------ */

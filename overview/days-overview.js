@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get the current date
     const currentDate = new Date();
     // Define options for formatting the date
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const options = { year: 'numeric', month: 'long', day: '2-digit' };
     // Format the current date into a human-readable string
     const formattedDate = currentDate.toLocaleDateString('en-UK', options);
 

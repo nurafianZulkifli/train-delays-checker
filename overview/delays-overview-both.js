@@ -61,7 +61,7 @@ const doverviewsm24 = new Chart(doverview24sm, {
     },
     {
       label: "SBS Transit",
-      data: [0,0],
+      data: [0,1],
       borderColor: 'rgb(130, 71, 148)',
       fill: true,
       backgroundColor: 'rgba(130, 71, 148,0.05)',

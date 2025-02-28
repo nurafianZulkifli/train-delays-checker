@@ -58,7 +58,7 @@ const doverviewsm25 = new Chart(doverview25sm, {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "No. of Delays",
-      data: [2],
+      data: [2,2],
       borderColor: 'rgb(207, 61, 61)',
       fill: true,
       backgroundColor: 'rgba(207, 61, 61,0.05)',
@@ -78,7 +78,7 @@ const doverviewsb25 = new Chart(doverview25sb, {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
       label: "No. of Delays",
-      data: [0],
+      data: [0,1],
       borderColor: 'rgb(130, 71, 148)',
       fill: true,
       backgroundColor: 'rgba(130, 71, 148,0.05)',

@@ -240,6 +240,10 @@
 @media only screen and (max-width: 767px) {
     .container {
         max-width: 720px;
+    }
+
+    .container-collapsible {
+        max-width: 720px;
         max-height: 77vh;
     }
 

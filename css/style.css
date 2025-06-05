@@ -86,13 +86,19 @@ li {
     list-style: none;
 }
 
-p,
-.read-aloud {
+p {
     line-height: 1.9;
     color: #636363;
     font-size: 15px;
     font-weight: 400;
     cursor: default;
+}
+
+.read-aloud {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #636363;
 }
 
 ul {

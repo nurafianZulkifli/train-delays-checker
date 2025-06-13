@@ -186,6 +186,13 @@ body.dark-mode #lrd {
     transition: all 0.5s ease;
 }
 
+body.dark-mode #io {
+    background-color: #111318;
+    padding-top: 50px;
+    transition: all 0.5s ease;
+    padding-bottom: 20px;
+}
+
 body.dark-mode .alert-primary {
     background-color: #082249;
     color: #5294e4;

@@ -1441,6 +1441,11 @@ img.profile-pic {
     padding-top: 50px;
 }
 
+#io {
+    background-color: #f9f9ffff;
+    padding-top: 00px;
+}
+
 #hero-smrt a.credits,
 #hero-sbst a.credits {
     font-size: 15px;

@@ -136,9 +136,11 @@
                       development was aimed at serving growing neighbourhoods in these regions.
                       <br><br>
                       The 20km line has 16 stations, and connects to six interchanges.<br><br> (Source: <a
-                        href="https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/rail_network/north_east_line.html">LTA</a>) &nbsp;
+                        href="https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/rail_network/north_east_line.html">LTA</a>)
+                      &nbsp;
 
-                      <button type="button" class="read-aloud" onclick="readAloud(this.parentElement)" title="Read aloud">
+                      <button type="button" class="read-aloud" onclick="readAloud(this.parentElement)"
+                        title="Read aloud">
                         <i class="fa-solid fa-volume-up"></i></button>
 
                     </p>
@@ -417,7 +419,7 @@
       }
     }
 
-        function readAloud(element) {
+    function readAloud(element) {
       const text = element.innerText || element.textContent;
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel(); // Stop any ongoing speech
@@ -458,6 +460,7 @@
 
   <script src="../js/copy-to-clipboard.js"></script>
 
+  <script src="../js/preloader.js"></script>
 
 </body>
 

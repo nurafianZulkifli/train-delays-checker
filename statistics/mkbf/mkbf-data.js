@@ -54,10 +54,10 @@ const smrtMRT = document.getElementById('mkbf-smrt-mrt').getContext('2d');
 const linesmrt = new Chart(smrtMRT, {
   type: 'line', // or 'bar', 'pie', etc.
   data: {
-    labels: ["2020", "2021", "2022", "2023", "Oct '23 - Sep '24"],
+    labels: ["2021", "2022", "2023", "2024", "Mar '25"],
     datasets: [{
       label: "NSL",
-      data: [1082000, 1976000, 1651000, 1409000, 1418000],
+      data: [1976000, 1651000, 1409000, 2485000, 1981000],
       borderColor: 'rgb(207, 61, 61)',
       fill: true,
       backgroundColor: 'rgba(207, 61, 61,0.05)',
@@ -66,7 +66,7 @@ const linesmrt = new Chart(smrtMRT, {
 
     {
       label: "EWL",
-      data: [1258000, 1454000, 2038000, 3363000, 2027000],
+      data: [1454000, 2044000, 3362000, 1687000, 1682000],
       borderColor: 'rgb(0, 154, 68)',
       fill: true,
       backgroundColor: 'rgba(0, 154, 68,0.05)',
@@ -75,7 +75,7 @@ const linesmrt = new Chart(smrtMRT, {
 
     {
       label: "CCL",
-      data: [1733000, 1826000, 1840000, 1209000, 1040000],
+      data: [1826000, 1840000, 1209000, 919000, 1063000],
       borderColor: 'rgb(255, 160, 16)',
       fill: true,
       backgroundColor: 'rgba(255, 160, 16,0.05)',

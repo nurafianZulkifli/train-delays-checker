@@ -54,10 +54,10 @@ const smrtMRT = document.getElementById('mkbf-smrt-mrt').getContext('2d');
 const linesmrt = new Chart(smrtMRT, {
   type: 'line', // or 'bar', 'pie', etc.
   data: {
-    labels: ["2021", "2022", "2023", "2024", "Mar '25"],
+    labels: ["2020", "2021", "2022", "2023", "2024", "Jul 2024 - Jun 2025"],
     datasets: [{
       label: "NSL",
-      data: [1976000, 1651000, 1409000, 2485000, 1981000],
+      data: [1082000, 1976000, 1651000, 1409000, 2485000, 1237000],
       borderColor: 'rgb(207, 61, 61)',
       fill: true,
       backgroundColor: 'rgba(207, 61, 61,0.05)',
@@ -66,7 +66,7 @@ const linesmrt = new Chart(smrtMRT, {
 
     {
       label: "EWL",
-      data: [1454000, 2044000, 3362000, 1687000, 1682000],
+      data: [1258000, 1454000, 2038000, 3363000, 1687000, 1444000],
       borderColor: 'rgb(0, 154, 68)',
       fill: true,
       backgroundColor: 'rgba(0, 154, 68,0.05)',
@@ -75,7 +75,7 @@ const linesmrt = new Chart(smrtMRT, {
 
     {
       label: "CCL",
-      data: [1826000, 1840000, 1209000, 919000, 1063000],
+      data: [1733000, 1826000, 1840000, 1209000, 919000, 1069000],
       borderColor: 'rgb(255, 160, 16)',
       fill: true,
       backgroundColor: 'rgba(255, 160, 16,0.05)',
@@ -92,10 +92,10 @@ const smrtLRT = document.getElementById('mkbf-smrt-lrt').getContext('2d');
 const lineslrt = new Chart(smrtLRT, {
   type: 'line', // or 'bar', 'pie', etc.
   data: {
-    labels: ["2020", "2021", "2022", "2023", "Oct '23 - Sep '24"],
+    labels: ["2020", "2021", "2022", "2023", "2024", "Jul 2024 - Jun 2025"],
     datasets: [{
       label: "BPLRT",
-      data: [111000, 224000, 222000, 248000, 189000],
+      data: [111000, 224000, 222000, 248000, 232000, 247000],
       borderColor: 'rgb(112, 133, 115)',
       fill: true,
       backgroundColor: 'rgba(112, 133, 115,0.05)',
@@ -113,10 +113,10 @@ const sbstMRT = document.getElementById('mkbf-sbst-mrt').getContext('2d');
 const linesbst = new Chart(sbstMRT, {
   type: 'line',
   data: {
-    labels: ["2020", "2021", "2022", "2023", "Oct '23 - Sep '24"],
+    labels: ["2020", "2021", "2022", "2023", "2024", "Jul 2024 - Jun 2025"],
     datasets: [{
       label: "NEL",
-      data: [2040000,2064000,2064000,2063000,2050000],
+      data: [2040000, 2064000, 2064000, 2063000, 4101000, 4229000],
       borderColor: 'rgb(135, 24, 157)',
       fill: true,
       backgroundColor: 'rgba(135, 24, 157,0.05)',
@@ -125,7 +125,7 @@ const linesbst = new Chart(sbstMRT, {
 
     {
       label: "DTL",
-      data: [2090000,4188000,4050000,8124000,8112000],
+      data: [2090000, 4188000, 4050000, 8124000, 8131000, 4118000],
       borderColor: 'rgb(0, 87, 184)',
       fill: true,
       backgroundColor: 'rgba(0, 87, 184,0.05)',
@@ -143,10 +143,10 @@ const sbstLRT = document.getElementById('mkbf-sbst-lrt').getContext('2d');
 const lineslrt2 = new Chart(sbstLRT, {
   type: 'line',
   data: {
-    labels: ["2020", "2021", "2022", "2023", "Oct '23 - Sep '24"],
+    labels: ["2020", "2021", "2022", "2023", "2024", "Jul 2024 - Jun 2025"],
     datasets: [{
       label: "SKPG",
-      data: [426000,341000,438000,1217000,612000],
+      data: [426000, 341000, 438000, 1217000, 549000, 1252000],
       borderColor: 'rgb(112, 133, 115)',
       fill: true,
       backgroundColor: 'rgba(112, 133, 115,0.05)',

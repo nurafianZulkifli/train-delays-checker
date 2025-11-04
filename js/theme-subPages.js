@@ -4,6 +4,7 @@
 if (localStorage.getItem('dark-mode') === 'enabled') {
     document.body.classList.add('dark-mode');
     updateThemeIcon('dark');
+    updateHrefForDarkMode();
 } else {
     updateThemeIcon('light');
 }
@@ -23,6 +24,7 @@ function toggleDarkMode() {
         localStorage.setItem('dark-mode', 'disabled');
         updateThemeIcon('light');
     }
+    updateHrefForDarkMode();
 }
 
 // Add event listeners to both buttons if they exist
@@ -68,4 +70,23 @@ function updateThemeIcon(theme) {
         if (themeIconDesktop) themeIconDesktop.classList.remove('animate');
         if (themeIconMobile) themeIconMobile.classList.remove('animate');
     }, 300); // Match the duration of the CSS transition
+}
+
+function updateHrefForDarkMode() {
+    /* Banners */
+    const aboutPage = document.getElementById('cv-about');
+
+    const isDarkMode = document.body.classList.contains('dark-mode');
+
+    if (isDarkMode) {
+        /* Banners */
+        aboutPage.style.backgroundImage = "url('img/bg-img/hero-bg-small-dark.png')";
+
+
+    } else {
+        /* Banners */
+        aboutPage.style.backgroundImage = "url('img/bg-img/hero-bg-small.png')";
+    }
+
+
 }

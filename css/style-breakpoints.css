@@ -1039,7 +1039,7 @@
         padding-right: 2em;
     }
 
-    #cv-tdc {
+    #cv-tdc, #cv-about {
         height: 45vh !important;
     }
 

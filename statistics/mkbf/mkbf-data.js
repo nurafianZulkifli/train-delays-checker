@@ -54,10 +54,10 @@ const smrtMRT = document.getElementById('mkbf-smrt-mrt').getContext('2d');
 const linesmrt = new Chart(smrtMRT, {
   type: 'line', // or 'bar', 'pie', etc.
   data: {
-    labels: ["Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25", "Sep-25"],
+    labels: ["Sep-24", "Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25"],
     datasets: [{
       label: "NSL",
-      data: [1985000, 2483000, 2485000, 2480000, 2475000, 1981000, 1650000, 1413000, 1237000, 1413000, 1648000, 1236000],
+      data: [1418000, 1985000, 2483000, 2485000, 2480000, 2475000, 1981000, 1650000, 1413000, 1237000, 1413000, 1648000],
       borderColor: 'rgb(207, 61, 61)',
       fill: true,
       backgroundColor: 'rgba(207, 61, 61,0.05)',
@@ -66,7 +66,7 @@ const linesmrt = new Chart(smrtMRT, {
 
     {
       label: "EWL",
-      data: [1686000, 1687000, 1687000, 1444000, 1441000, 1682000, 1262000, 1441000, 1443000, 2021000, 1684000, 1692000],
+      data: [2024000, 1686000, 1687000, 1687000, 1444000, 1441000, 1682000, 1262000, 1441000, 1443000, 2021000, 1684000],
       borderColor: 'rgb(0, 154, 68)',
       fill: true,
       backgroundColor: 'rgba(0, 154, 68,0.05)',
@@ -75,7 +75,7 @@ const linesmrt = new Chart(smrtMRT, {
 
     {
       label: "CCL",
-      data: [1218000, 1221000, 919000, 921000, 1057000, 1063000, 1243000, 1067000, 1069000, 1067000, 1245000, 1489000],
+      data: [1040000, 1218000, 1221000, 919000, 921000, 1057000, 1063000, 1243000, 1067000, 1069000, 1067000, 1245000],
       borderColor: 'rgb(255, 160, 16)',
       fill: true,
       backgroundColor: 'rgba(255, 160, 16,0.05)',
@@ -92,10 +92,10 @@ const smrtLRT = document.getElementById('mkbf-smrt-lrt').getContext('2d');
 const lineslrt = new Chart(smrtLRT, {
   type: 'line', // or 'bar', 'pie', etc.
   data: {
-labels: ["Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25", "Sep-25"],
+labels: ["Sep-24", "Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25"],
     datasets: [{
       label: "BPLRT",
-      data: [176000, 230000, 232000, 335000, 394000, 398000, 269000, 244000, 247000, 192000, 209000, 253000],
+      data: [189000, 176000, 230000, 232000, 335000, 394000, 398000, 269000, 244000, 247000, 192000, 209000],
       borderColor: 'rgb(112, 133, 115)',
       fill: true,
       backgroundColor: 'rgba(112, 133, 115,0.05)',
@@ -113,10 +113,10 @@ const sbstMRT = document.getElementById('mkbf-sbst-mrt').getContext('2d');
 const linesbst = new Chart(sbstMRT, {
   type: 'line',
   data: {
-labels: ["Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25", "Sep-25"],
+labels: ["Sep-24", "Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25"],
     datasets: [{
       label: "NEL",
-      data: [2048000, 4091000, 4101000, 4110000, 4116000, 4136000, 4166000, 4191000, 4229000, 4262000, 2142000, 2158000],
+      data: [2050000, 2048000, 4091000, 4101000, 4110000, 4116000, 4136000, 4166000, 4191000, 4229000, 4262000, 2142000],
       borderColor: 'rgb(135, 24, 157)',
       fill: true,
       backgroundColor: 'rgba(135, 24, 157,0.05)',
@@ -125,7 +125,7 @@ labels: ["Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "
 
     {
       label: "DTL",
-      data: [8117000, 8120000, 8131000, 8139000, 8128000, 8156000, 2727000, 4100000, 4118000, 4131000, 2760000, 2768000],
+      data: [8112000, 8117000, 8120000, 8131000, 8139000, 8128000, 8156000, 2727000, 4100000, 4118000, 4131000, 2760000],
       borderColor: 'rgb(0, 87, 184)',
       fill: true,
       backgroundColor: 'rgba(0, 87, 184,0.05)',
@@ -143,10 +143,10 @@ const sbstLRT = document.getElementById('mkbf-sbst-lrt').getContext('2d');
 const lineslrt2 = new Chart(sbstLRT, {
   type: 'line',
   data: {
-labels: ["Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25", "Sep-25"],
+labels: ["Sep-24", "Oct-24", "Nov-24", "Dec-24", "Jan-25", "Feb-25", "Mar-25", "Apr-25", "May-25", "Jun-25", "Jul-25", "Aug-25"],
     datasets: [{
       label: "SKPG",
-      data: [614000, 547000, 549000, 619000, 825000, 827000, 829000, 998000, 1252000, 1256000, 840000, 842000],
+      data: [612000, 614000, 547000, 549000, 619000, 825000, 827000, 829000, 998000, 1252000, 1256000, 840000],
       borderColor: 'rgb(112, 133, 115)',
       fill: true,
       backgroundColor: 'rgba(112, 133, 115,0.05)',

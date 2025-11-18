@@ -134,8 +134,15 @@
     </div>
 
     <!-- ============================================= Hero Section ============================================= -->
+
     <!-- Recent Incidents -->
     <section id="ri" class="d-flex flex-column justify-content-center">
+            <div class="container-xxl container-mobile container-mobile-header my-4 d-flex justify-content-end">
+        <select id="delayFilter" class="form-select w-auto">
+            <option value="reported">Reported Delays Only</option>
+            <option value="unreported">Includes Unreported Delays</option>
+        </select>
+    </div>
         <div class="row row-ri">
             <div class="slide-container swiper">
                 <div class="slide-content">
@@ -470,7 +477,7 @@
                                 <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
                                     since last reported delay</div>
                                 <div class="slrd text-xs font-weight-bold text-uppercase mb-1">
-                                     <i class="fa-solid fa-clock-rotate-left"></i>&nbsp;
+                                    <i class="fa-solid fa-clock-rotate-left"></i>&nbsp;
                                     <a href="incident-history/incident-history.html#2025-09-13"
                                         id="skpg-last-delay-link">
                                         <span id="skpg-last-delay" data-last-delay="2025-09-13"></span>

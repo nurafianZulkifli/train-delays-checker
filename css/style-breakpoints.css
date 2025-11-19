@@ -296,6 +296,11 @@
         max-height: 77vh;
     }
 
+    .row {
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+
     .section-heading h2 {
         font-size: 24px;
     }

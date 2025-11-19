@@ -454,9 +454,9 @@
         font-size: 35px;
     }
 
-    .info p {
+    /* .info p {
         margin-top: 4em;
-    }
+    } */
 
     .wbnrfz_details_blog {
         background: #ffffffe0;
@@ -516,11 +516,11 @@
     }
 
     .station-pill-round {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .station-pill-round-single {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 

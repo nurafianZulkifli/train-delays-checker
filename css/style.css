@@ -3230,9 +3230,8 @@ h4.stn:hover {
 }
 
 .navbar {
-    background: #ffffffc9;
+    background: #fdfdfda2;
     backdrop-filter: blur(25px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50px;
     padding: 10px 25px;
     display: flex;
